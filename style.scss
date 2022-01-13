@@ -1,0 +1,466 @@
+
+/* Style Guide Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;800&family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* - General Styles - */
+
+body, html {
+  overflow-x:
+  hidden;margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 700;
+  color: #94902C;
+  transition: ease-in 0.3s;
+
+}
+
+ul {
+  list-style-type: none;
+  line-height: 180%;
+  padding-inline-start: 0px;
+
+}
+
+
+/* -- Colors -- */
+
+$almost-black: #0C1428;
+$dark-blue: #141F3F;
+$blue: #233772;
+$light-blue: #5B8ABE;
+$light-green: #A4D4C4;
+$green: #3C9879;
+$orange: #DB7952;
+$gold: #D5C065;
+$tan: #A9987E;
+$brown: #3F3327;
+
+/* - Typography -*/
+
+$sans-serif: 'Work Sans', sans-serif;
+$serif: 'Bitter', serif;
+
+
+h1 {
+  font-family: $sans-serif;
+  font-size: 61px;
+  font-weight: 700;
+  color: $dark-blue;
+  line-height: 45.7px;
+}
+
+h2 {
+  color: $dark-blue;
+  font-family: $sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+h3 {
+  color: $dark-blue;
+  font-weight: 700;
+  font-family: $sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: $sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $dark-blue;
+  line-height: 45.7px;
+}
+
+h6 {
+  font-family: $sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+p {
+  font-family: $serif;
+  font-weight: 400;
+  color: $dark-blue;
+  font-size: 16px;
+  line-height: 186%;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+/* Navigation */
+
+.navbar {
+  background: $dark-blue;
+}
+
+.navbar-brand {
+  // margin-bottom: -50px;
+  height: 70px;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar-nav {
+  max-height: 60px;
+}
+
+.navbar a {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: ease-in 0.2s;
+  border-bottom: 0px solid;
+}
+
+.navbar a:hover {
+  color: $orange;
+  transition: ease-in 0.2s;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-nav .main-button {
+  color: #ffffff;
+  border: 3px solid #C9793B;
+}
+
+.navbar .main-button:hover {
+  color: #C95D3B;
+  transition: ease-in 0.3s;
+  color: #C95D3B;
+  background: transparent;
+  transition: ease-in 0.3s;
+  border: 3px solid #C95D3B;
+}
+
+
+.nav-link {
+  padding: 1em;
+}
+
+/* --- Main Body ---- */
+
+
+.banner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/HomeBanner.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  min-height: 400px;
+  margin-bottom: -80px;
+}
+
+.banner h1 {
+  color: #ffffff;
+  line-height: 71.55px;
+}
+
+
+// .main-body {
+//   background: rgba(224, 220, 202, .4);
+// }
+
+/* - First Section - */
+
+
+.first-section {
+   background-color: #F6F5F2;
+   background: url('images/river.svg') no-repeat center top, #F6F5F2;
+   background-size: 100% 100%;
+   margin-top: -10px;
+   min-height: 450px;
+}
+
+
+/* - Second Section -*/
+
+.second-section {
+  background: url('images/canyon.jpg') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.second-section .box {
+  padding: 30px 50px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.second-section p {
+  line-height: 186.9%;
+}
+
+.second-section .row {
+  // min-height: 300px;
+}
+
+.quote {
+  z-index: 1000;
+  background: rgba(91, 138, 190, 0.8);
+  min-height: 300px;
+}
+
+.quote h4 {
+  color: #ffffff;
+}
+
+.blockquote p {
+  font-family: $sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 186%;
+  color: #ffffff;
+}
+
+.name {
+  font-family: $sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* - Photo Credits -*/
+
+.photo-credits {
+  min-height: 200px;
+}
+
+
+
+
+/* - Buttons -*/
+
+.main-button {
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background: $orange;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 25px;
+  transition: ease-in 0.3s;
+  border-radius: 0px;
+  border: 3px solid $orange;
+}
+
+.main-button {
+  color: #fffffff;
+}
+
+.main-button:hover {
+  color: #C95D3B;
+  background: transparent;
+  transition: ease-in 0.3s;
+  border: 3px solid #C95D3B;
+  text-decoration: none;
+}
+
+.alt-button {
+  color: $orange;
+  background: transparent;
+  font-family: $sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 10px 0px;
+  transition: ease-in 0.3s;
+}
+
+.alt-button:hover {
+  color: $light-blue;
+  text-decoration: none;
+}
+
+
+
+/* - footer */
+
+.footer {
+  background: $dark-blue;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.main-footer-links {
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  border: 2px solid $green;
+  border-radius: 30px;
+  list-style: none;
+}
+
+.main-footer-links a {
+  color: #ffffff;
+}
+
+.main-footer-links li {
+  display:inline-block;
+  padding:0 10px;
+  position:relative;
+}
+
+.main-footer-links li:not(:last-child)::after{
+  padding-right: 40px;
+  border-right: 2px solid $green;
+  content: "  ";
+}
+
+
+.main-footer-links a:hover {
+  color: #DB7952;
+  transition: ease-in 0.2s;
+  text-decoration: none;
+}
+
+.footer p {
+  text-transform: uppercase;
+  color: rgba(59, 35, 15, .7);
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 1%;
+  text-align: center;
+}
+
+// .sub-links a:first-child  {
+//   color: $green;
+// }
+
+
+
+.links-1 a {
+  color: #ffffff;
+}
+
+.links-1 .first {
+  color: $green;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.links-1 a:hover {
+  color: $orange;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+
+.links-2 a {
+  color: #ffffff;
+}
+
+.links-2 a:hover {
+  color: $orange;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+
+.links-2 .first {
+  color: $green;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.links-3 a {
+  color: #ffffff;
+}
+
+.links-3 .first {
+  color: $green;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.links-3 a:hover {
+  color: $orange;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+
+.links-4 a {
+  color: #ffffff;
+}
+
+.links-4 .first {
+  color: $green;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.links-4 a:hover {
+  color: $orange;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+
+.links-5 a {
+  color: #ffffff;
+}
+
+.links-5 .first {
+  color: $green;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.links-5 a:hover {
+  color: $orange;
+  text-decoration: none;
+  transition: ease-in 0.2s;
+}
+
+
+
+
+
+
+
+/* Interior Page */
+
+
+.interior-page {
+  background: #ffffff;
+}
+
+.interior-page h2 {
+}
+
+.interior-page {
+  color: #3D342B;
+}
+
+.interior-header .container {
+  padding-left: 0px;
+}
+
+.interior-header {
+  width: 100%;
+  padding: 40px 0px;
+  max-height: 625px;
+  background: #817E72;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.interior-header h1 {
+  color: #ffffff;
+}

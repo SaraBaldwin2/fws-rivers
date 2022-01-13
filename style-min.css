@@ -1,0 +1,262 @@
+
+/* Style Guide Styles */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap');
+
+/* - General Styles - */
+
+body, html {
+  overflow-x:
+  hidden;margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 700;
+  color: #94902C;
+  transition: ease-in 0.3s;
+
+}
+
+ul {
+  list-style-type: none;
+  line-height: 180%;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+
+}
+
+a:hover {
+  color: #807C25;
+  transition: ease-out 0.3s;
+  text-decoration: none;
+  border-bottom: 1px solid #807C25;
+}
+
+
+/* - Typography -*/
+
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #3B230F;
+  line-height: 45.7px;
+}
+
+h2 {
+  font-family: 'Manrope', sans-serif;;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Manrope', sans-serif;;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+
+/* Navigation */
+
+.navbar {
+  background: #141F3F;
+}
+
+.navbar a {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  transition: ease-in 0.2s;
+  border-bottom: 0px solid;
+}
+
+.navbar a:hover {
+  color: #94902C;
+  transition: ease-in 0.2s;
+}
+
+.navbar-nav > li{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.navbar-nav .main-button {
+  color: #ffffff;
+  border: 3px solid #C9793B;
+}
+
+.navbar .main-button:hover {
+  color: #C95D3B;
+  transition: ease-in 0.3s;
+  color: #C95D3B;
+  background: transparent;
+  transition: ease-in 0.3s;
+  border: 3px solid #C95D3B;
+}
+
+
+.nav-link {
+  padding: 1em;
+}
+
+/* --- Main Body ---- */
+
+.main-body {
+  background: rgba(224, 220, 202, .4);
+}
+
+/* - Buttons -*/
+
+.main-button {
+  font-weight: 900;
+  background: #C95D3B;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: ease-in 0.3s;
+  border-radius: 0px;
+  border: 3px solid #C9793B;
+}
+
+.main-button a {
+  color: #fffffff;
+}
+
+.main-button:hover {
+  color: #C95D3B;
+  background: transparent;
+  transition: ease-in 0.3s;
+  border: 3px solid #C95D3B;
+}
+
+.highlight {
+  background: rgba(148, 144, 44, 0.1);
+}
+
+.highlight a {
+  transition: ease-out 0.3s;
+  border-bottom: 3px solid #807C25;
+}
+
+.highlight a:hover {
+  background: rgba(148, 144, 44, 0.2);
+}
+
+.main-button a:hover{
+  color: #fffff;
+}
+
+.alt-button {
+  border: 3px solid #94902C;
+  color: #94902C;
+  font-weight: 900;
+  padding: 10px 20px;
+  background: transparent;
+  border-radius: 0px;
+}
+
+.alt-button:hover {
+  color: #ffffff;
+  background: #94902C;
+  transition: ease-out 0.3s;
+}
+
+.alert {
+  background: #C9793B;
+  padding: 10px;
+  border-radius: 0px;
+  color: #ffffff;
+  font-weight: 900;
+  margin: auto;
+  text-align: center;
+}
+
+.alert p {
+  margin: 0px;
+}
+
+.hero-text {
+  padding-right: 12vw;
+}
+
+.bg-coyote {
+  z-index: 10;
+  height: 90vh;
+  background: url('images/coyote.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: -12vw;
+}
+
+.bg-right:before {
+  left:0;
+  right: auto;
+}
+
+.bg:before {
+  position:absolute;
+  left:0em; content:'';
+  height:100%;
+  width:800em;
+}
+
+/* - footer */
+
+.footer {
+  background: #E0DCCA;
+  height: 10vh;
+}
+
+.footer p {
+  text-transform: uppercase;
+  color: rgba(59, 35, 15, .7);
+  padding-top: 20px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 1%;
+  text-align: center;
+}
+
+/* Interior Page */
+
+
+.interior-page {
+  background: #ffffff;
+}
+
+.interior-page h2 {
+}
+
+.interior-page {
+  color: #3D342B;
+}
+
+.interior-header .container {
+  padding-left: 0px;
+}
+
+.interior-header {
+  width: 100%;
+  padding: 40px 0px;
+  max-height: 625px;
+  background: #817E72;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+}
+
+.interior-header h1 {
+  color: #ffffff;
+}
